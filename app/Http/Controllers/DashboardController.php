@@ -108,7 +108,7 @@ foreach ($initial_completes as $initial_complete)
     public function assessorAuth( $username)
     {
        if($username == 'none') {
-           $destination = 'https://intranet.highlands.edu/marctest/assessment_auth.php';
+           $destination = 'https://intranet.highlands.edu/marctest/assessment_auth_2019.php';
        } else {
             session(['username' => $username]);
             $assessor = Assessor::where('username', '=',  $username)->first();

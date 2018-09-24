@@ -9,7 +9,7 @@
             <th width="10%">Outcome</th>
         </tr>
         @if(count($reassessments) > 0)
-        <h3>2016 - 17 Assessments not meeting outcomes must be assigned before creating new assessments.</h3>
+        <h3>2017 - 18 Assessments not meeting outcomes must be assigned before creating new assessments.</h3>
         @endif
     @foreach ($reassessments as $reassessment)
         <tr>

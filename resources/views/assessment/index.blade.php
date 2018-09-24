@@ -1,5 +1,8 @@
 @extends('layouts.app') @section('content')
-<h1 align="center"><a href="{{URL::to('/')}}/dashboard/assessor_auth/none">Facilitator Login</a></h1>
+    <h1 align="center"><a href="https://intranet.highlands.edu/assessment_2018/public/">2017 - 2018 Reports</a></h1>
+    </div>
+    <div class="well">
+    <h1 align="center"><a href="{{URL::to('/')}}/dashboard/assessor_auth/none">Facilitator Login</a></h1>
 </div>
 <div class="well">
     <h1 align="center"><a href="{{URL::to('/')}}/comment">IE Reviewer Login</a></h1>
